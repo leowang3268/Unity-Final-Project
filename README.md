@@ -1,2 +1,1 @@
-# Unity-Final-Project
-shooting games
+This is for Unity Final Project.
