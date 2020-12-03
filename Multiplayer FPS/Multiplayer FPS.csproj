@@ -289,8 +289,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\PlayerMotor.cs" />
+    <Compile Include="Assets\PlayerShoot.cs" />
+    <Compile Include="Assets\PlayerWeapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
