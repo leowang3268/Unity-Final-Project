@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplayer FPS", "Multiplayer FPS.csproj", "{DABD1851-8B28-31EB-F0D3-7E4EEBE6927D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplayer FPS.Plugins", "Multiplayer FPS.Plugins.csproj", "{CAEA7F7F-A484-A166-E57B-461BB6CC5D6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplayer FPS.Editor.Plugins", "Multiplayer FPS.Editor.Plugins.csproj", "{8B36CA1A-8229-AFDA-B2D0-5B6A8A165863}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DABD1851-8B28-31EB-F0D3-7E4EEBE6927D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABD1851-8B28-31EB-F0D3-7E4EEBE6927D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABD1851-8B28-31EB-F0D3-7E4EEBE6927D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABD1851-8B28-31EB-F0D3-7E4EEBE6927D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEA7F7F-A484-A166-E57B-461BB6CC5D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEA7F7F-A484-A166-E57B-461BB6CC5D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEA7F7F-A484-A166-E57B-461BB6CC5D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEA7F7F-A484-A166-E57B-461BB6CC5D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B36CA1A-8229-AFDA-B2D0-5B6A8A165863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B36CA1A-8229-AFDA-B2D0-5B6A8A165863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B36CA1A-8229-AFDA-B2D0-5B6A8A165863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B36CA1A-8229-AFDA-B2D0-5B6A8A165863}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
