@@ -50,7 +50,7 @@ public class PlayerMotor : MonoBehaviour {
     }
 
     // Perform movement based on velocity variable
-    void PlayerMovement()
+    private void PlayerMovement()
     {
         if (velocity != Vector3.zero) 
         {
@@ -64,7 +64,7 @@ public class PlayerMotor : MonoBehaviour {
     }
 
     // Perform rotation based on rotation variable
-    void PlayerRotation()
+    private void PlayerRotation()
     {
         if (rotation != Vector3.zero) 
         {

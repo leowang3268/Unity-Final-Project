@@ -2,6 +2,14 @@
 using UnityEngine.Networking;
 public class Player : NetworkBehaviour {
 
+    [SyncVar]
+    private bool _isDead = false;
+    public bool isDead
+    {
+        get { return _isDead; }
+        protected set { _isDead = value; }
+    }
+
     [SerializeField]
     private int maxHealth = 100;
 
