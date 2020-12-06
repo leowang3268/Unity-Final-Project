@@ -21,7 +21,7 @@ public class PlayerSetup : NetworkBehaviour {
             sceneCamera = Camera.main;
             if (sceneCamera != null)
             {
-                Camera.main.gameObject.SetActive(false);
+                sceneCamera.gameObject.SetActive(false);
             }
         }
     }
