@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Animator
+[RequireComponent(typeof(Animator))]
+
+
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
@@ -16,6 +20,14 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
+
+	// Componenet caching
+	private Animator animator;
+
+	void Start()
+	{
+		animator = GetComponent<Animator>();
+	}
 
     void Update()
     {
@@ -41,5 +53,9 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+		// Animate movement
+		animator.SetFloat("ForwardVelocity", z);
+
     }
 }
