@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour {
         motor = GetComponent<PlayerMotor>();
         joint = GetComponent<ConfigurableJoint>();
         setJointSettings(jointSpring);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
@@ -51,7 +52,7 @@ public class PlayerController : MonoBehaviour {
 
         // Calculate camera rotation as a 3D vector (turning around)
         float xRot = Input.GetAxisRaw("Mouse Y"); // rotate the x-axis when moving the mouse in y-axis direction
-
+        xRot = Mathf.Clamp(xRot, -85f, 85f);
         Vector3 _cameraRotation = new Vector3(xRot, 0f, 0f) * lookSensitivity;
 
         // Apply camera rotation 

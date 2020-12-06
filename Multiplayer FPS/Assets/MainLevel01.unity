@@ -163,7 +163,6 @@ GameObject:
   - component: {fileID: 346517086}
   - component: {fileID: 346517085}
   - component: {fileID: 346517084}
-  - component: {fileID: 346517083}
   m_Layer: 0
   m_Name: SceneCamera
   m_TagString: MainCamera
@@ -171,13 +170,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &346517083
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 346517082}
-  m_Enabled: 1
 --- !u!124 &346517084
 Behaviour:
   m_ObjectHideFlags: 0
@@ -317,6 +309,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d84dcd66035fc044093fa2b3936a783a, type: 2}
+    - target: {fileID: 100000, guid: df4796b594b970842b69211cb0078c5d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df4796b594b970842b69211cb0078c5d, type: 3}
   m_IsPrefabParent: 0
@@ -367,6 +363,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d84dcd66035fc044093fa2b3936a783a, type: 2}
+    - target: {fileID: 100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fadddc63520db414bbc9126cbf4743ad, type: 3}
   m_IsPrefabParent: 0
@@ -421,6 +421,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d84dcd66035fc044093fa2b3936a783a, type: 2}
+    - target: {fileID: 100000, guid: 622a87b3379022740be7e2efea3ebd33, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 622a87b3379022740be7e2efea3ebd33, type: 3}
   m_IsPrefabParent: 0
@@ -471,6 +475,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d84dcd66035fc044093fa2b3936a783a, type: 2}
+    - target: {fileID: 100000, guid: 622a87b3379022740be7e2efea3ebd33, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 622a87b3379022740be7e2efea3ebd33, type: 3}
   m_IsPrefabParent: 0
@@ -531,7 +539,7 @@ MonoBehaviour:
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 1574503223831476, guid: 83e7d214237a07744924c15671c6eeb1,
+  m_PlayerPrefab: {fileID: 1393141984417698, guid: 83e7d214237a07744924c15671c6eeb1,
     type: 2}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 1
@@ -661,7 +669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653516752}
   - component: {fileID: 1653516753}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -725,7 +733,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1756476850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}

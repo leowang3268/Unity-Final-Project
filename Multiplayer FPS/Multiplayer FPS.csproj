@@ -289,14 +289,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\NetworkManager.cs" />
-    <Compile Include="Assets\Player.cs" />
-    <Compile Include="Assets\PlayerController.cs" />
-    <Compile Include="Assets\PlayerMotor.cs" />
-    <Compile Include="Assets\PlayerSetup.cs" />
-    <Compile Include="Assets\PlayerShoot.cs" />
-    <Compile Include="Assets\PlayerWeapon.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\NetworkManager.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerMotor.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerRotation.cs" />
+    <Compile Include="Assets\Scripts\PlayerSetup.cs" />
+    <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\PlayerWeapon.cs" />
+    <Compile Include="Assets\Scripts\SetPatent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
