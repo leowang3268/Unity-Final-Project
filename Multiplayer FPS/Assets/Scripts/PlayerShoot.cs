@@ -6,14 +6,14 @@ public class PlayerShoot : MonoBehaviour {
     public PlayerWeapon weapon;
 
     [SerializeField]
-    private Camera cam;
+    private Camera gun; // cam   
 
     [SerializeField]
     private LayerMask mask;
 
     void Start()
     {
-        if (cam == null)
+        if (gun == null)
         {
             Debug.LogError("PlaterShoot: No camera referenced");
             this.enabled = false;
@@ -31,11 +31,11 @@ public class PlayerShoot : MonoBehaviour {
 
     private void Shoot()
     {
-        RaycastHit _hit;
+        RaycastHit hit;
 
-        if(Physics.Raycast(cam.transform.position, cam.transform.forward, out _hit, weapon.range, mask))
+        if(Physics.Raycast(gun.transform.position, gun.transform.forward, out hit, weapon.range, mask))
         {
-            Debug.Log("We hit " + _hit.collider.name);
+            Debug.Log("We hit " + hit.collider.name);
         }
     }
 }
