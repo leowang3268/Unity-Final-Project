@@ -13,8 +13,6 @@ public class PlayerMotor : MonoBehaviour {
     [SerializeField]
     private Camera cam;
 
-    [SerializeField]
-    private float cameraRotationLimit = 85f;
     void Start()
     {
         rb = GetComponent<Rigidbody>();    

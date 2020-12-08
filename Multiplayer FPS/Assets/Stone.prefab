@@ -106,12 +106,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1722024925484004}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e43ec3e3a67dc4428efa349ae90ce8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stone: {fileID: 0}
+  stone: {fileID: 4931157302299226}
 --- !u!135 &135005788775916224
 SphereCollider:
   m_ObjectHideFlags: 1

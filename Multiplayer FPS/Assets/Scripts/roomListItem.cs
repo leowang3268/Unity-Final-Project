@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Networking.Match;
 using UnityEngine.UI;
-public class roomListItem : MonoBehaviour {
+public class RoomListItem : MonoBehaviour {
 
     public delegate void JoinRoomDelegate(MatchInfoSnapshot _match);
     private JoinRoomDelegate joinRoomCallback;
