@@ -635,12 +635,13 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 8d32da1e-beee-427b-b39a-b6b3882260cc
-  projectName: Multiplayer FPS
-  organizationId: leowang3268
+  cloudProjectId: eaac57a5-cbbc-4ab6-a599-8c8af1675aa7
+  projectName: Multiplayer FPS (2)
+  organizationId: crezycheeza
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
