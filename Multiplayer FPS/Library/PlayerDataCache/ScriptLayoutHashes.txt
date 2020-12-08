@@ -1,5 +1,6 @@
 WindowsStandalone
 SceneListBegin?
+Assets/Lobby.unity
 Assets/MainLevel01.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -16,6 +17,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 e60482e4fd03d48fc6a48df59f58f27e Assembly-CSharp.dll:.PlayerMotor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
+3e592d5e5e078e9b570cbefeeb25988f Assembly-CSharp.dll:.JoinGame
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -110,7 +112,6 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NetworkManager
 78a2a366a0a3b585e1178d2dd9d006ab Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.WaypointProgressTracker
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
@@ -122,7 +123,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-d1cc1ec0799ab2ab5e963b978b8391b2 Assembly-CSharp.dll:.PlayerShoot
+933970c552f0bd567341d3b1d57fe767 Assembly-CSharp.dll:.PlayerShoot
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DragRigidbody
 78ebae5ed9b3edeb216da437b99754a4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
 149e538468c9a609cf26b23682c996c7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.PlatformSpecificContent
@@ -139,7 +140,7 @@ a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ObjectResetter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameManager
-7a85ac6da0f41c725300888bfe035ca5 Assembly-CSharp.dll:.PlayerSetup
+e1dc2bfa4ffae393b4c80eacb9d2a631 Assembly-CSharp.dll:.PlayerSetup
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -173,6 +174,9 @@ db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp-firstpass.dll:UnityStandardAsse
 a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectDestructor
 671dc93554528c738dfa266881e2109b Assembly-CSharp.dll:.PlayerRotation
+25f3fdaf97d88e469d941bd39b26a5f2 Assembly-CSharp.dll:.StoneSpawn
 592acd59cb61d8711a8464f51deca1d5 Assembly-CSharp.dll:.PlayerController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
+1495e4581e89e6c914616aac5772e486 Assembly-CSharp.dll:.HostGame
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+7ebdc70bc0f6bdf5d5088dfa00250254 Assembly-CSharp.dll:.roomListItem
