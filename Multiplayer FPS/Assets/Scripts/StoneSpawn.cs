@@ -9,11 +9,11 @@ public class StoneSpawn : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		meshrenderer = GetComponent<MeshRenderer>();
-		for (int i = 0; i < 1; i++)
-		{
+		//for (int i = 0; i < 1; i++)
+		//{
 			Transform s = Instantiate(stone);
 			s.localPosition = new Vector3(Random.Range(115, 120), Random.Range(35, 40), Random.Range(40, 45));
-		}
+		//}
 	}
 	
 	// Update is called once per frame
