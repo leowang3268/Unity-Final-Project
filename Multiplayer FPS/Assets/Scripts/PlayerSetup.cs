@@ -7,15 +7,14 @@ public class PlayerSetup : NetworkBehaviour {
     [SerializeField]
     Behaviour[] componentsToDisable;
 
-    [SerializeField]
     // same team: remoteLayerName = "OurSide"
     string remoteLayerName = "EnemySide";
 
-    [SerializeField]
-    string dontDrawLayerName = "DontDraw";
+    //[SerializeField]
+    //string dontDrawLayerName = "DontDraw";
 
-    [SerializeField]
-    GameObject playerGraphics;
+    //[SerializeField]
+    //GameObject playerGraphics;
 
     Camera sceneCamera;
 
@@ -38,12 +37,12 @@ public class PlayerSetup : NetworkBehaviour {
             }
 
             // disable player graphics for local player
-            SetLayerRecursively(playerGraphics, LayerMask.NameToLayer(dontDrawLayerName));
+            //SetLayerRecursively(playerGraphics, LayerMask.NameToLayer(dontDrawLayerName));
         }
 
         GetComponent<Player>().Setup();
     }
-
+    /*
     void SetLayerRecursively(GameObject obj, int newLayer)
     {
         obj.layer = newLayer;
@@ -53,7 +52,7 @@ public class PlayerSetup : NetworkBehaviour {
             SetLayerRecursively(child.gameObject, newLayer);
         }
     }
-
+    */
     public override void OnStartClient()
     {
         base.OnStartClient();
