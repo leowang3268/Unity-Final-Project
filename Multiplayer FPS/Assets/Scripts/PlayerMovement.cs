@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
 	void Start()
 	{
-		animator = GetComponent<Animator>();
+		//animator = GetComponent<Animator>();
 	}
 
     void Update()
@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
 
 		// Animate movement
-		animator.SetFloat("ForwardVelocity", z);
+		//animator.SetFloat("ForwardVelocity", z);
 
     }
 }

@@ -13,6 +13,8 @@ public class PlayerShoot : NetworkBehaviour {
     [SerializeField]
     private LayerMask mask;
 
+    //public ParticleSystem muzzleFlash;
+
     void Start()
     {
         if (cam == null)
@@ -36,13 +38,12 @@ public class PlayerShoot : NetworkBehaviour {
     private void Shoot ()
     {
         RaycastHit hit;
-
+        //muzzleFlah.Play();
         if(Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, weapon.range, mask))
         {
             //Debug.Log("hit");
             if (hit.collider.tag == PLAYER_TAG)
                 CmdPlayerShot(hit.collider.name, weapon.damage);
-            
         }
     }
 

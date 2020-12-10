@@ -296,8 +296,6 @@
     <Compile Include="Assets\Graphics\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Weapon_Scripts\AutomaticGunScriptLPFP.cs" />
     <Compile Include="Assets\Graphics\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
     <Compile Include="Assets\Graphics\MobilityArts\SciFiHandGun\Scripts\OrbitAroundTarget.cs" />
-    <Compile Include="Assets\SapphiArt\SapphiArtchan\Scripts\AnimationManagerUI.cs" />
-    <Compile Include="Assets\SapphiArt\SapphiArtchan\Scripts\SapphiArtChan_AnimManager.cs" />
     <Compile Include="Assets\Scripts\Depricated\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Depricated\PlayerMotor.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -318,6 +316,10 @@
     <None Include="Assets\Graphics\multiplayer-fps-assets\README.txt" />
     <None Include="Assets\Graphics\sci-fi-weapons\README.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
     <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
   </ItemGroup>
